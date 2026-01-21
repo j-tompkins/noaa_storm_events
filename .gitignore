@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+conda/
+*.egg-info/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Data (keep repo light)
+data/raw/
+data/interim/
+data/processed/
+
+# Outputs
+logs/
+reports/figures/
+reports/tables/
